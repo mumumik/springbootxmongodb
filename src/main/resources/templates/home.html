@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{default}">
+    <head>
+        <title>Spring Boot x MongoDb - Home</title>
+        <link rel="stylesheet" th:href="@{/css/style.css}" />
+    </head>
+    <div layout:fragment="page_content" id="page_content">
+		<div class="mdl-layout mdl-js-layout mdl-color--grey-100 box-center">
+	    	<main class="mdl-layout__content">
+				<h1>Welcome!</h1>
+
+        		<p>Click <a th:href="@{/hello}">here</a> to see a greeting.</p>
+			</main>
+		</div>
+	</div>
+</html>
